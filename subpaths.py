@@ -22,4 +22,4 @@ ctx.set_source_rgb(1, 0, 0)
 ctx.set_line_width (10)
 ctx.stroke()
 
-surface.write_to_png('paths.png')
+surface.write_to_png(f"outputs/paths.png")

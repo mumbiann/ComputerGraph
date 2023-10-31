@@ -24,4 +24,5 @@ ctx.set_source_rgb(1, 0.8, 0.8)
 ctx.set_line_width(5)
 ctx.stroke()
 
-surface.write_to_png("lines.png")
+
+surface.write_to_png(f"outputs/lines.png")

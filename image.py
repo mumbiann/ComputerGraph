@@ -50,4 +50,4 @@ ctx.set_source_rgb(0,0,0)
 ctx.set_line_width(10)
 ctx.stroke()
 
-surface.write_to_png("output.png")
+surface.write_to_png(f"outputs/output.png")

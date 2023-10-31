@@ -26,7 +26,7 @@ output_context.set_source_surface(recording_surface)
 output_context.paint()
 
 # Save the output surface to a PNG file
-output_surface.write_to_png("recorded_drawing.png")
+output_surface.write_to_png(f"outputs/recorded.png")
 
 # Clean up the surfaces
 recording_surface.finish()

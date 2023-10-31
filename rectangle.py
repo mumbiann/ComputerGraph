@@ -23,4 +23,6 @@ ctx.stroke()
 
 
 # Save the output to a PNG file
-surface.write_to_png("ann.png")
+surface.write_to_png(f"outputs/ann.png")
+
+

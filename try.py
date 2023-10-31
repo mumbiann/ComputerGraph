@@ -11,4 +11,5 @@ def draw_circle(cr):
 surface = cairo.ImageSurface(cairo.FORMAT_ARGB32, 500, 500)
 context = cairo.Context(surface)
 draw_circle(context)
-surface.write_to_png("hemi_sphere.png")
+
+surface.write_to_png(f"outputs/hemisp.png")

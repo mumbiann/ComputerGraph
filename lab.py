@@ -42,7 +42,7 @@ ctx.fill_preserve()
 ctx.set_source_rgb(0, 0, 0)
 ctx.set_line_width(5)
 ctx.stroke()
-surface.write_to_png("triangle2.png")
+surface.write_to_png(f"outputs/triangle2.png")
 
 # Cleanup
 ctx.show_page()
